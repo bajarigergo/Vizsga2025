@@ -1,0 +1,26 @@
+[
+  {
+    "angol": "horse",
+    "magyar": "ló",
+    "temaId": 1,
+    "temanev": "állatok"
+  },
+  {
+    "angol": "otter",
+    "magyar": "vidra",
+    "temaId": 1,
+    "temanev": "állatok"
+  },
+  {
+    "angol": "tram",
+    "magyar": "villamos",
+    "temaId": 2,
+    "temanev": "közlekedés"
+  },
+  {
+    "angol": "plane",
+    "magyar": "repülő",
+    "temaId": 2,
+    "temanev": "közlekedés"
+  }
+]

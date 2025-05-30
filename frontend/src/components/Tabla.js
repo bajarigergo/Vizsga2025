@@ -9,7 +9,7 @@ function Tabla() {
     
   return (
     <>
-    <Table responsive>
+    <Table responsive className='w-80%'>
   <thead>
     <tr className="d-flex justify-content-evenly flex-nowrap">
       <th >ANGOL</th>

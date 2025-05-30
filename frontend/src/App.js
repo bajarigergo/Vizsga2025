@@ -5,7 +5,7 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div className='w-100'>
+    <div className='w-100%'>
     <Header/>
     <Tabla/>
     <Footer/>

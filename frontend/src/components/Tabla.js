@@ -2,25 +2,27 @@ import React from 'react'
 import { useContext } from 'react'
 import { ApiContext } from '../contexts/ApiContext'
 import TablaSor from './TablaSor'
+import { Table } from 'react-bootstrap'
 
 function Tabla() {
     const {szavak} = useContext(ApiContext)
+    
   return (
     <>
-    <table className="table col-12">
+    <Table responsive>
   <thead>
-    <tr>
-      <th scope="col-4">ANGOL</th>
-      <th scope="col-4">MAGYAR</th>
-      <th scope="col-4">visszajelzés</th>
+    <tr className="d-flex justify-content-evenly flex-nowrap">
+      <th >ANGOL</th>
+      <th >MAGYAR</th>
+      <th >visszajelzés</th>
     </tr>
   </thead>
   <tbody>
     {szavak.map((elem)=>{
-        return <TablaSor key={elem.id} elem={elem}/>
+        return <TablaSor key={elem.id} elem={elem} p/>
     })}
   </tbody>
-</table>
+</Table>
     </>
   )
 }

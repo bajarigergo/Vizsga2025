@@ -12,10 +12,10 @@ function TablaSor({elem}) {
         }
     }
   return (
-    <tr >
-      <td className='col-4' >{elem.angol}</td>
-      <td className='col-4' ><input type="text" className="form-control" onInput={eldontes} id='inputValasz' /></td>
-      <td className='col-4 '>{eredmeny}</td>
+    <tr className="d-flex justify-content-evenly flex-nowrap">
+      <td className='order-1 p-2 ' >{elem.angol}</td>
+      <td className='order-2 p-2' ><input type="text" className="form-control" onInput={eldontes} id='inputValasz' /></td>
+      <td className='order-3 p-2'>{eredmeny}</td>
     </tr>
   )
 }
